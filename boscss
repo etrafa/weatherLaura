@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main__app {
+  width: 100%;
+  background: rgb(22, 94, 179);
+  background: linear-gradient(
+    174deg,
+    rgba(22, 94, 179, 1) 0%,
+    rgba(158, 215, 255, 1) 100%
+  );
+}
+
+.main__app__buttons {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.weather__banner {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+}
+
+.city__name {
+  font-size: 32px;
+  font-weight: 400;
+}
+.main__temperature {
+  font-size: 88px;
+  font-weight: 300;
+  padding-left: 1.5rem;
+}
+.main__weather__description {
+  font-size: 18px;
+}
+
+.max__min__temperatures {
+  display: flex;
+  font-size: 18px;
+}
+
+.max__min__temperatures p:last-child {
+  margin-left: 1rem;
+}
+
+.hamburger__menu__left {
+  cursor: pointer;
+}
+
+.hamburger__menu {
+  display: none;
+  width: 100%;
+  height: 200px;
+}
+
+.hamburger__menu__buttons button {
+  width: 100px;
+  height: 40px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger__menu__details {
+  margin-top: 2rem;
+}
+.hamburger__menu__details p {
+  margin-top: 1rem;
+}
+
+.hamburger__menu__details a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.search__bar {
+  cursor: pointer;
+}
+
+/* **********NEW YEAR CODES********* */
+
+#daily-weather {
+  display: flex;
+  text-align: center;
+  overflow: scroll;
+}
+
+.daily-weather-body {
+  border: 1px solid #f2f2f2;
+  margin: 20px;
+  height: 120px;
+  padding: 0 40px;
+  border-radius: 5px;
+}
+
+.daily-weather-body img {
+  max-width: 100%;
+}
+
+.daily-weather-body p {
+  display: inline;
+}
+
+#hourly-weather {
+  display: flex;
+  text-align: center;
+  overflow: scroll;
+}
+
+.hourly-weather-body {
+  border: 1px solid #f2f2f2;
+  margin: 20px;
+  height: 120px;
+  padding: 0 40px;
+  border-radius: 5px;
+}
+
+.hourly-weather-body img {
+  width: 40px;
+  height: 40px;
+}
+
+.hourly-weather-body p {
+  color: #fff;
+  font-weight: normal;
+  padding-top: 0.1rem;
+  font-size: 18px;
+}
+
+.hourly-weather-body p:last-child {
+  padding: 0;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.details-box {
+  width: 90%;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  margin: 1rem auto;
+  border-radius: 8px;
+}

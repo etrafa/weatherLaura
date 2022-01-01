@@ -1,0 +1,205 @@
+<div class="ten__days__weather">
+        <div class="ten__days__banner">
+          <span class="material-icons calendar__icon"> calendar_month </span>
+          <p>10-DAY FORECAST</p>
+        </div>
+        <hr />
+        <div class="ten__days__forecast today">
+          <p>Today</p>
+          <img
+            class="todayWeatherImage"
+            src="./weather-assets/rainy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="today__min__temperature">59°</p>
+            <p>/</p>
+            <p class="today__max__temperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="firstDayName">Fri</p>
+          <img
+            class="firstDayWeatherImage"
+            src="./weather-assets/sunny.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="firstDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="firstDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="secondDayName">Sat</p>
+          <img
+            class="secondDayWeatherImage"
+            src="./weather-assets/rainy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="secondDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="secondDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="thirdDayName">Sun</p>
+          <img
+            class="thirdDayWeatherImage"
+            src="./weather-assets/sunny.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="thirdDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="thirdDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="fourthDayName">Mon</p>
+          <img
+            class="fourtDayWeatherImage"
+            src="./weather-assets/rainy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="fourthDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="fourthDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="fifthDayName">Tue</p>
+          <img
+            class="fifthDayWeatherImage"
+            src="./weather-assets/sunny.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="fifthDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="fifthDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="sixthDayName">Wed</p>
+          <img
+            class="sixthDayWeatherImage"
+            src="./weather-assets/foggy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="sixthDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="sixthDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="seventhDayName">Thu</p>
+          <img
+            class="seventhDayWeatherImage"
+            src="./weather-assets/sunny.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <div class="ten__days__max__min">
+              <p class="seventhDayMinTemperature">59°</p>
+              <p>/</p>
+              <p class="seventhDayMaxTemperature">79°</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="eighthDayName">Fri</p>
+          <img
+            class="eighthDayWeatherImage"
+            src="./weather-assets/rainy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="eighthDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="eighthDayMaxTemperature">79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p class="ninethDayName">Sat</p>
+          <img
+            class="ninethDayWeatherImage"
+            src="./weather-assets/windy.png"
+            alt=""
+          />
+          <div class="ten__days__max__min">
+            <p class="ninethDayMinTemperature">59°</p>
+            <p>/</p>
+            <p class="ninethDayMaxTemperature">79°</p>
+          </div>
+        </div>
+      </div>
+      <div class="detailed__information">
+        <div class="first__layer">
+          <div class="feels__like">
+            <div class="feels__like__container">
+              <img src="./images/thermometer.png" alt="" />
+              <p>Feels Like</p>
+            </div>
+            <p class="feels__like__value">100°</p>
+          </div>
+          <div class="sunrise__sunset">
+            <div class="sunrise__sunset__container">
+              <img src="./images/sun.png" alt="" />
+              <p>Sunrise & Sunset</p>
+            </div>
+            <div class="sunrise__container">
+              <img class="sunrise__image" src="./images/sunrise.png" alt="" />
+              <p class="sunrise__value">07:55 AM</p>
+            </div>
+            <div class="sunset__container">
+              <img class="sunset__image" src="./images/sunset.png" alt="" />
+              <p class="sunset__value">04:52 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="second__layer">
+          <div class="wind">
+            <div class="wind__container">
+              <img src="./images/wind.png" alt="" />
+              <p>Wind</p>
+            </div>
+            <p class="wind__value">14 km/h</p>
+          </div>
+          <div class="visibility">
+            <div class="visibility__container">
+              <img src="./images/visibility.png" alt="" />
+              <p>Visibility</p>
+            </div>
+            <p class="visibility__value">16km</p>
+          </div>
+        </div>
+        <div class="third__layer">
+          <div class="humidity">
+            <div class="humidity__container">
+              <img src="./images/humidity.png" alt="" />
+              <p>Humidity</p>
+            </div>
+            <p class="humidity__value">2000</p>
+          </div>
+          <div class="pressure">
+            <div class="pressure__container">
+              <img src="./images/pressure.png" alt="" />
+              <p>Pressure</p>
+            </div>
+            <p class="pressure__value">1000</p>
+          </div>
+        </div>
+      </div>
